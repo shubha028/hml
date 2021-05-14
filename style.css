@@ -1,0 +1,104 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navbar {
+    background-color: #1e1f26;
+}
+
+.navbar .nav-link {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+    border-left: #444 3px solid;
+}
+
+#about {
+    margin-top: 6.6rem;
+}
+
+#about .icon {
+    color: #f5f7fa;
+}
+
+#education .card {
+    background-color: #1e1f26;
+    border-radius: 3;
+}
+
+.img-icon {
+    height: 4rem;
+    width: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.dropbtn {
+  color:  #f5f7fa;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+.hi{
+    background-color: black;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #000000;}
+.rect1{
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+background-color: white;
+}
+  .typewriter{
+  color: black;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5.5s steps(20, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
