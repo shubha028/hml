@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 body {
     background-color: #ffffff;
     color: #000000;
@@ -80,8 +81,8 @@ background-color: white;
 }
   .typewriter {
   padding:5px 5px;
-  font-size:25px;
-  font-family:moontime;
+  font-size:30px;
+  font-family:Dancing Script;
   border-radius:50px;
 }
 .typewriter p {
