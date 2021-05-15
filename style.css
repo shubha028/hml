@@ -3,7 +3,11 @@ body {
     background-color: #ffffff;
     color: #000000;
 }
-
+html{
+    margin:0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 .navbar {
     background-color: #1e1f26;
 }
